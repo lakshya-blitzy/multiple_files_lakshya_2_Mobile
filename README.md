@@ -1,2 +1,2 @@
 # hao-backprop-test
-test project for backprop integration.
+Run: `node server.js`
