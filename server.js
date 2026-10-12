@@ -64,4 +64,8 @@ public class Example {
         System.out.println("Alice exists: " + exists);
     }
 }
+public class Example
+{
+    public static void Main()
+    {
 
