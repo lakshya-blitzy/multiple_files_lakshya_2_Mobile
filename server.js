@@ -3,6 +3,7 @@ const http = require('http');
 const hostname = '127.0.0.1';
 const port = 3000;
 
+/** Handles incoming HTTP requests by responding 200 OK with the plain-text body "Hello, World!". */
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
